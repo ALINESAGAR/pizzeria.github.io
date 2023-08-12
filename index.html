@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Así se ponen los comentarios-->
+
+<head>
+    <title>Página de Mariposas</title>
+    <meta charset="UTF-8">
+    <link href="estilos.css" rel="stylesheet">
+    <!--Para conectar a la hoja de estilos, el nombre de href debe ser igual al archivo de la hoja de estilos, rel=relation=relación-->
+</head>
+
+<body>
+    <h1>Página de mariposas</h1>
+
+    <h3>Imágenes de mariposas</h3>
+    <!--Imagen desde Internet-->
+    <img class="img1" src="https://i.pinimg.com/564x/70/7f/2b/707f2b88e298a67bcb6e5e11112429d2.jpg">
+    <br>
+    <!--Imagen desde computadora-->
+    <img class="img2" src="imagenes/ba5901f88bb93b14345601416cae93c2.jpg">
+
+    <!--Crear enlaces externos-->
+    <p> Si quieres ver más imágenes de mariposas,
+        <a href="https://www.pinterest.es/conchavelasco75/mariposas/" target="_blank"> da click en este enlace.</a></p>
+    <h3>Lista de mariposas</h3>
+    <!--cursivas em y negritas strong-->
+    <p>3 cosas que las <em>mariposas </em><strong>aman</strong></p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <!--Ordered List-->
+        <li>Flores</li>
+        <!--Li=List item-->
+        <li>Agua</li>
+        <li>Clima fresco</li>
+    </ol>
+    <p>3 cosas que las mariposas <i>odian</i></p>
+    <!--i=cursiva también funciona para CSS-->
+
+    <!--Lista desordenada-->
+    <ul>
+        <!--ul= Unordered list-->
+        <!--para poner una lista larga se multipilica li x 3 o por el número que se quiera en la lista y se da enter así li*3 enter-->
+        <li>Sol</li>
+        <li>Sequía</li>
+        <li>Autos</li>
+    </ul>
+
+
+    <!--Formularios-->
+    <form>
+        <!--form=p=párrafo-->
+        <!--Form con botones de radio = SELECCIONAR SOLO UNA-->
+        <p>¿Tu mariposa es joven o adulta?</p>
+        <label><!--Respuestas al formulario
+            input= relacionado con formularios de radio y que se espera una respuesta
+            value=valor que se va a enviar cuando se envíe la respuesta
+            name=asigna nombre al formulario
+            id= identificador-->
+            <input id="Joven" type="radio" value="Joven" name="Joven-Adulta" checked>Joven
+        </label>
+        <br>
+        <label>
+            <input id="Adulta" type="radio" value="Adulta" name="Joven-Adulta">Adulta
+            </label>
+        <!--Form con casillas de verificación = SELECCIONAR VARIAS CASILLAS, LABEL=Se utiliza para asociar una etiqueta descriptiva con un elemento de formulario.-->
+        <p>¿Qué tipo de personalidad tiene tu mariposa?</p>
+        <label><!--VALUE Y ID DEBEN ESCRIBIRSE IGUAL, CHECKED= Marca el botón de radio o la casilla de verificación como seleccionado por defecto.-->
+            <input id="Enojona" type="checkbox" value="Enojona" name="personalidad" checked>Enojona
+            </label>
+        <br>
+        <label><!--VALUE Y ID DEBEN ESCRIBIRSE IGUAL-->
+            <input id="Perezosa" type="checkbox" value="Perezosa" name="personalidad">Perezosa
+            </label>
+        <br>
+        <label><!--VALUE Y ID DEBEN ESCRIBIRSE IGUAL-->
+            <input id="Alegre" type="checkbox" value="Alegre" name="Alegre">Alegre
+            </label>
+    </form>
+</body>
+<footer>
+    <!--small es hacer aún más pequeña la letra de un párrafo-->
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank"> Tecnolochicas PRO MX</a></small></p>
+</footer>
+
+</html>

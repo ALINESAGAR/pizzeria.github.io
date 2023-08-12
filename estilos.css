@@ -1,0 +1,49 @@
+    body {
+        background-color: bisque;
+        font-family: 'Tajawal', sans-serif;
+    }
+    
+    h1 {
+        font-size: 40px;
+        color: #28282e;
+    }
+    
+    h3 {
+        color: #321906;
+        font-size: 25px;
+    }
+    /*COMENTARIO*/
+    /*Esto es un comentario en CSS*/
+    
+    h1,
+    p {
+        color: #321906;
+    }
+    
+    img {
+        width: 400px;
+        height: 300px;
+        border-style: solid double dotted;
+        /*marcos combinados o solos*/
+        border-color: darkslategray;
+        margin-bottom: 40px;
+        /*botton=abajo*/
+        padding: 20px;
+    }
+    /*MARGIN(separar un elemento de otro) VS PADDING(centrar nuestra imagen)*/
+    
+    .img1 {
+        width: 500px;
+        height: 700px;
+    }
+    /*para el caso en que las imágenes sean de diferentes tamaños se agrega "class" en el index img class="img1" etc*/
+    
+    .img2 {
+        width: 500px;
+        height: 700px;
+    }
+    
+    a,
+    small {
+        color: maroon;
+    }
